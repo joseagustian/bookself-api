@@ -1,0 +1,23 @@
+{
+  "name": "bookself-app-api",
+  "version": "v.0.1_alpha",
+  "description": "Submission For Dicoding Back-End Developer Class",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-server": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Jose Agustian",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^3.3.4"
+  }
+}
